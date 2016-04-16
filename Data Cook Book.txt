@@ -1,0 +1,148 @@
+Variables Explanation
+=================
+Activities
+——————— 
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+Subject 
+————————
+The range for the subject is from 1 to 30.
+
+The following variables are other column variables measuring every single aspect of the activity. The Unit is Hz
+
+tBodyAccMeanX: Mean value of t BodyAcc_X 
+tBodyAccMeanY: Mean value of t BodyAcc_Y 
+tBodyAccMeanZ: Mean value of t BodyAcc_Z 
+tBodyAccStdX:  Standard deviation of t BodyAcc_X 
+tBodyAccStdY:  Standard deviation of t BodyAcc_Y
+tBodyAccStdZ:  Standard deviation of t BodyAcc_Y
+tGravityAccMeanX: Mean value of t GravityAcc_X  
+tGravityAccMeanY: Mean value of t GravityAcc_Y 
+tGravityAccMeanZ: Mean value of t GravityAcc_Z  
+tGravityAccStdX : Standard deviation of t GravityAcc_X  
+tGravityAccStdY : Standard deviation of t GravityAcc_Y  
+tGravityAccStdZ : Standard deviation of t GravityAcc_Z  
+tBodyAccJerkMeanX: Mean value of tBodyAccJerk_X
+tBodyAccJerkMeanY: Mean value of tBodyAccJerk_Y
+tBodyAccJerkMeanZ: Mean value of tBodyAccJerk_Z 
+tBodyAccJerkStdX: Standard deviation of tBodyAccJerk_X 
+tBodyAccJerkStdY: Standard deviation of tBodyAccJerk_Y  
+tBodyAccJerkStdZ: Standard deviation of tBodyAccJerk_Z  
+tBodyGyroMeanX:  Mean value of tBodyGyro_X
+tBodyGyroMeanY:  Mean value of tBodyGyro_Y
+tBodyGyroMeanZ:  Mean value of tBodyGyro_Z
+tBodyGyroStdX:   Standard deviation value of tBodyGyro_X 
+tBodyGyroStdY:   Standard deviation value of tBodyGyro_X 
+tBodyGyroStdZ:   Standard deviation value of tBodyGyro_X 
+tBodyGyroJerkMeanX: Mean value of tBodyGyroJerk_X
+tBodyGyroJerkMeanY: Mean value of tBodyGyroJerk_Y
+tBodyGyroJerkMeanZ: Mean value of tBodyGyroJerk_Z
+tBodyGyroJerkStdX: Standard deviation value of tBodyGyroJerk_X  
+tBodyGyroJerkStdY 
+tBodyGyroJerkStdZ 
+tBodyAccMagMean: Mean value of tBodyAccMag
+tBodyAccMagStd: Standard deviation value of tBodyAccMag
+tGravityAccMagMean: Mean value of tGravityAccMag 
+tGravityAccMagStd: Standard deviation value of tGravityAccMa
+tBodyAccJerkMagMean: Mean value of tBodyAccJerkMag 
+tBodyAccJerkMagStd:  Standard deviation value of tBodyAccJerkMag
+tBodyGyroMagMean:  Mean value of tBodyGyroMag  
+tBodyGyroMagStd: Standard deviation value of tBodyGyroMag 
+tBodyGyroJerkMagMean:Mean value of tBodyGyroJerkMag
+tBodyGyroJerkMagStd 
+fBodyAccMeanX: Mean value of fBodyAcc_x 
+fBodyAccMeanY
+fBodyAccMeanZ 
+fBodyAccStdX 
+fBodyAccStdY 
+fBodyAccStdZ 
+
+fBodyAccMeanFreqX: weighted average of the frequency components to obtain a mean frequency offBodyAcc_X
+
+fBodyAccMeanFreqY:weighted average of the frequency components to obtain a mean frequency offBodyAcc_Y
+ 
+fBodyAccMeanFreqZ:weighted average of the frequency components to obtain a mean frequency offBodyAcc_Y
+ 
+fBodyAccJerkMeanX 
+fBodyAccJerkMeanY 
+fBodyAccJerkMeanZ
+fBodyAccJerkStdX 
+fBodyAccJerkStdY
+fBodyAccJerkStdZ 
+fBodyAccJerkMeanFreqX
+fBodyAccJerkMeanFreqY
+fBodyAccJerkMeanFreqZ 
+fBodyGyroMeanX 
+fBodyGyroMeanY 
+fBodyGyroMeanZ 
+fBodyGyroStdX 
+fBodyGyroStdY 
+fBodyGyroStdZ 
+fBodyGyroMeanFreqX 
+fBodyGyroMeanFreqY 
+fBodyGyroMeanFreqZ 
+fBodyAccMagMean 
+fBodyAccMagStd 
+fBodyAccMagMeanFreq
+fBodyBodyAccJerkMagMean
+fBodyBodyAccJerkMagStd
+fBodyBodyAccJerkMagMeanFreq 
+fBodyBodyGyroMagMean 
+fBodyBodyGyroMagStd 
+fBodyBodyGyroMagMeanFreq 
+fBodyBodyGyroJerkMagMean 
+fBodyBodyGyroJerkMagStd 
+fBodyBodyGyroJerkMagMeanFreq
+
+
+——————————————
+Explanation of the variable names:
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean: Mean value
+std: Standard deviation
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
+
+The complete list of variables of each feature vector is available in 'features.txt'
